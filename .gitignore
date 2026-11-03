@@ -1,0 +1,10 @@
+# Ortam ve gizli bilgiler — asla commit edilmemeli
+.env
+.env.local
+.env.*.local
+**/.env
+!**/.env.example
+
+node_modules/
+*.log
+.DS_Store
